@@ -1,9 +1,9 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@julia-design-system-ignite-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
-  "module":"./dist/index.mjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm, cjs --dts",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@julia-design-system-ignite-ui/ts-config": "*",
+    "@julia-design-system-ignite-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.1.3"
   }
